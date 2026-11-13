@@ -2,10 +2,10 @@
 name: MindBridge Build Test
 
 on:
-  push:
-    branches: [main]
-  pull_request:
-    branches: [main]
+push:
+  branches: [main, mindbridge-v2]
+pull_request:
+  branches: [main, mindbridge-v2]
   workflow_dispatch:
 
 jobs:
